@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.item {
+  margin-left: 30px;
+  align-self: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.links {
+  padding: 10px;
+  margin-top: 40px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 21px;
+  font-weight: 700;
+}
+.links:hover {
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+}
+.Active {
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  color: rgb(255, 247, 247);
+}
+.logo {
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-family: "Oswald", sans-serif;
+  color: rgb(0, 0, 0);
+}
+.sliding {
+  margin: 0px 30px 0px 30px;
+  border-radius: 10px;
+}
+.slides {
+  height: 400px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+/* .Explore_heading {
+  text-align: center;
+  margin: 10px 25px;
+  padding: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  border-style: double;
+  border-width: 10px;
+  border-color: aliceblue;
+  background-color: black;
+  color: aliceblue;
+} */
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 30px 0px 30px;
+  text-align: center;
+}
+.box {
+  margin: 10px 20px;
+  transition: 1s;
+}
+.box:hover {
+  margin: 10px 20px;
+  opacity: 0.8;
+}
+.feature {
+  height: 300px;
+  width: 354px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-radius: 10px;
+}
+.info {
+  margin-top: 13px;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.footer {
+  background-color: #000000;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px 140px;
+  font-weight: lighter;
+}
+.footer_head {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer_icons {
+  margin: 10px;
+  height: 50px;
+}
+.footer_icons:hover {
+  margin: 8px;
+  height: 54px;
+}

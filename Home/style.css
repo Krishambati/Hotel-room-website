@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(./bg_1.jpg);
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+  padding: 20px 23px 0px 20px;
+}
+.list {
+  display: flex;
+  list-style-type: none;
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+.item {
+  margin-left: 30px;
+  align-self: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+}
+.links {
+  padding: 10px;
+  margin-top: 40px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  font-weight: 700;
+}
+.links:hover {
+  background-color: black;
+  border-radius: 15px;
+  color: whitesmoke;
+}
+.logo {
+  font-size: 40px;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.center_text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: 200px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.title1 {
+  font-size: 50px;
+  color: white;
+}
+.title2 {
+  margin-top: 10px;
+  font-size: 25px;
+  color: whitesmoke;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.explore {
+  background-color: black;
+  width: 100px;
+  padding: 10px;
+  border-radius: 15px;
+  border-style: solid;
+  color: white;
+  margin-top: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 2s;
+}
+.explore:hover {
+  background-color: transparent;
+}
